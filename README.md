@@ -1,8 +1,8 @@
 # fun
 
-A Fun Project.
+##A Fun Project.
 ![SAMPLE!](sample.png)
-[PLAY](https://bprabin811.github.io/fungame/#/)
+- [PLAY](https://bprabin811.github.io/fungame/#/)
 
 ## Getting Started
 
