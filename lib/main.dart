@@ -41,9 +41,10 @@ final randomNum = Random();
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Text('P L A Y....',
+            Text('P L A Y',
             style: TextStyle(
               fontSize: 50,
+              fontWeight: FontWeight.bold,
               color: Colors.amber.shade800
             ),),
             Row(
@@ -112,7 +113,7 @@ final randomNum = Random();
               ),
             ),
             MaterialButton(
-                color: Colors.green.shade500,
+                color: Colors.amber.shade500,
                 onPressed: (){
                   setState(() {
                     usertotal=0;
@@ -125,7 +126,7 @@ final randomNum = Random();
                 },
                 child: const Padding(
                   padding: EdgeInsets.all(10.0),
-                  child: Icon(Icons.restart_alt),
+                  child: Icon(Icons.restart_alt,size: 30,),
                 )),
             Padding(
               padding: const EdgeInsets.all(20.0),
