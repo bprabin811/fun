@@ -150,19 +150,19 @@ final randomNum = Random();
 
   void scored() {
     var element = list[randomNum.nextInt(list.length)];
-    var prabin ='defeat';
+    var r ='defeat';
     setState(() {
       if(element=='cooperate' && prabin=='defeat')
       {
         computer=element;
-        user =prabin;
+        user =r;
         cump=5;
         you=0;
         usertotal+=0;
         computertotal+=5;
       }else if(element=='defeat' && prabin=='defeat'){
         computer=element;
-        user =prabin;
+        user =r;
         cump=1;
         you=1;
         usertotal+=1;
@@ -172,19 +172,19 @@ final randomNum = Random();
   }
   void scorec() {
     var element = list[randomNum.nextInt(list.length)];
-    var prabin='cooperate';
+    var r='cooperate';
     setState(() {
       if(element=='cooperate' && prabin=='cooperate')
       {
         computer=element;
-        user =prabin;
+        user =r;
         cump=3;
         you=3;
         usertotal+=3;
         computertotal+=3;
       }else if(element=='defeat' && prabin=='cooperate'){
         computer=element;
-        user =prabin;
+        user =r;
         cump=0;
         you=5;
         usertotal+=5;
